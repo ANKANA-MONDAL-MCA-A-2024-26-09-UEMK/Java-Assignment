@@ -9,7 +9,7 @@ class FactorialCalc {
     }
 }
 
-public class Factorial {
+public class FactorialMain {
     public static void main(String[] args) {
         FactorialCalc obj = new FactorialCalc();
         int num = 5;

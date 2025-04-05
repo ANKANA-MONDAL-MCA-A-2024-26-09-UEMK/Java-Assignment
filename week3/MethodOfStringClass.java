@@ -1,6 +1,6 @@
 //Write java codes to implement the followings – Basic string handling concepts- Concept of mutable and immutable string, Methods of String class-charAt(), compareTo(), equals(), equalsIgnoreCase(), indexOf(), length() , substring().; toCharArray(), toLowerCase(), toString(), toUpperCase() , trim() , valueOf() methods 
 
-import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
         String s = "Hello World";

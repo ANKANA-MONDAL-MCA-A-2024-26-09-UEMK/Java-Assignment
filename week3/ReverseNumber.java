@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class Main {
+class ReverseNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

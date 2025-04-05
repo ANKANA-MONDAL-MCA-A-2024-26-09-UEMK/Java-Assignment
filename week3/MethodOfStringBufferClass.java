@@ -1,7 +1,7 @@
 //Write java codes to implement the followings – Methods of Stringbuffer class: append(), capacity(), charAt(), delete(), deleteCharAt().; ensureCapacity(), getChars(), indexOf(), insert(), length(), setCharAt(), setLength(), substring(), toString()
 
-import java.util.Scanner;
-class Main {
+
+class MethodOfstringBufferClass {
     public static void main(String[] args) {
 StringBuffer s = new StringBuffer("Hello");
 s.append(" World");
