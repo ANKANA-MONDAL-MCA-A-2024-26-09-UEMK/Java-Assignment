@@ -33,9 +33,5 @@ Methods: (a) withdrawl()- abstract , (b) deposit()- abstract , (c) display() to 
 Create a subclass of this class SavingsAccount and add the following details:  
 Data Members: (a) rateOfInterest Methods: (a) calculateAount()  
 11.	Implementation of final keyword before a variable.  12. Implementation of final keyword before a method.  
-13.	Implementation of final keyword before a class.  
-14.	Write a java program to create package.  
-15.	Write a java program to create a subpackage.  
-16.	Write a java program to access the methods from package.  
-17.	Write a java program to access the methods from package & subpackage both.  
+13.	Implementation of final keyword before a class.    
 18.	Write a java program to observe the utility of public access specifier. 
