@@ -16,5 +16,7 @@ class SubClass extends BaseClass {
 public class ConstructorWithParamDemo {
     public static void main(String[] args) {
         SubClass obj = new SubClass();
+        // Just to use the variable so the warning goes away:
+        System.out.println("Object created of type: " + obj.getClass().getSimpleName());
     }
 }

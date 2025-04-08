@@ -8,15 +8,14 @@ class Base {
 
 class Derived extends Base {
     Derived() {
-        super();
+        super(); // Optional here, since Java inserts it automatically
         System.out.println("Derived Constructor");
     }
 }
 
 public class ConstructorExample {
     public static void main(String[] args) {
-        Derived d = new Derived();
+        Derived d = new Derived(); // Variable 'd' created but not used further
+        System.out.println("Object created of type: " + d.getClass().getSimpleName());
     }
 }
-
-

@@ -1,10 +1,12 @@
+package week9;
+
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class CloneHashSetWithInput {
+public class HashSetToArrayWithInput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        HashSet<String> original = new HashSet<>();
+        HashSet<String> set = new HashSet<>();
 
         System.out.print("Enter number of elements: ");
         int n = scanner.nextInt();
@@ -12,12 +14,16 @@ public class CloneHashSetWithInput {
 
         for (int i = 0; i < n; i++) {
             System.out.print("Element " + (i + 1) + ": ");
-            original.add(scanner.nextLine());
+            set.add(scanner.nextLine());
         }
 
-        HashSet<String> cloned = (HashSet<String>) original.clone();
+        String[] array = new String[set.size()];
+        set.toArray(array);
 
-        System.out.println("Cloned HashSet: " + cloned);
+        System.out.println("Array elements:");
+        for (String item : array) {
+            System.out.println(item);
+        }
 
         scanner.close();
     }
