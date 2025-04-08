@@ -35,3 +35,16 @@ Data Members: (a) rateOfInterest Methods: (a) calculateAount()
 11.	Implementation of final keyword before a variable.  12. Implementation of final keyword before a method.  
 13.	Implementation of final keyword before a class.    
 18.	Write a java program to observe the utility of public access specifier. 
+
+Assignment- 09
+1.	Write a Java program to create an ArrayList, add all the months of a year and print the same.  
+2.	Create an ArrayList that can store only Strings. Create a printAll method that will print all the elements of the ArrayList using an Iterator.  
+3.	Write a Java program to retrieve an element (at a specified index) from a given array list. 
+4.	Write a Java program to copy one array list into another.  
+5.	Implement the Question 1 using LinkedList.  
+6.	Write a Java program to iterate through all elements in a linked list starting at the specified position.  
+7.	Write a Java program to insert elements into the linked list at the first and last positions.  
+8.	Write a Java program to remove the first and last elements from a linked list.  
+9.	Write a Java program to append the specified element to the end of a hash set and iterate through all elements.  
+10.	Write a Java program to clone a hash set to another hash set.  
+11.	Write a Java program to convert a hash set to an array.  
