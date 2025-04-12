@@ -1,7 +1,7 @@
 //Write java codes to implement the followings – Basic string handling concepts- Concept of mutable and immutable string, Methods of String class-charAt(), compareTo(), equals(), equalsIgnoreCase(), indexOf(), length() , substring().; toCharArray(), toLowerCase(), toString(), toUpperCase() , trim() , valueOf() methods 
 
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         String s = "Hello World";
 System.out.println("Character at index 1: " + s.charAt(1));
