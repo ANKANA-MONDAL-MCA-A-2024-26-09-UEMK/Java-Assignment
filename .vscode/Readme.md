@@ -168,3 +168,12 @@ position.
 through all elements.
 10. Write a Java program to clone a hash set to another hash set.
 11. Write a Java program to convert a hash set to an array.
+
+Week 10 : – File Handling in Java
+1.Write a Java program to create a text file and write some data into it.
+2.Write a Java program to read the content of a text file.
+3.Write a Java program to copy contents from one file to another file.
+4.Write a Java program to count the number of lines, words, and characters in a file.
+5.Write a Java program to serialize and deserialize an object.
+6.Write a Java program to search for a word in a file.
+7.Write a Java program to list all files and directories of a given path.
