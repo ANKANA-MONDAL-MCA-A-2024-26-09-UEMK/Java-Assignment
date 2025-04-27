@@ -1,0 +1,2 @@
+Hello, this is Week 10 of Java File Handling!
+We are learning how to handle files.
