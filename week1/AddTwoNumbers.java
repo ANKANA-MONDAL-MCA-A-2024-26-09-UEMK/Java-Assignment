@@ -3,8 +3,8 @@ package week1;
 public class AddTwoNumbers {
     public static void main(String[] args) {
         // Declare and initialize two variables
-        int num1 = 10;
-        int num2 = 20;
+        int num1 = 20;
+        int num2 = 30;
 
         // Add the two numbers
         int sum = num1 + num2;
