@@ -1,5 +1,4 @@
 //Write a java program to implement BufferedReader class. 
-
 import java.io.*;
 
 class ImplementBufferReader {
