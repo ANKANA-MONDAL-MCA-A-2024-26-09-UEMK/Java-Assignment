@@ -1,0 +1,41 @@
+public class Main2 {
+    public static void main(String[] args) {
+        PalindromeSolver solver = new PalindromeSolver();
+
+        System.out.println("Input: babad");
+        System.out.println("Longest Palindromic Substring: " + solver.longestPalindrome("babad"));
+
+        System.out.println("Input: cbbd");
+        System.out.println("Longest Palindromic Substring: " + solver.longestPalindrome("cbbd"));
+    }
+}
+
+class PalindromeSolver {
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() < 1)
+            return "";
+
+        int start = 0, end = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandFromCenter(s, i, i);
+            int len2 = expandFromCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+
+        return s.substring(start, end + 1);
+    }
+
+    private int expandFromCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return right - left - 1;
+    }
+}
