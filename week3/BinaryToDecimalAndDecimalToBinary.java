@@ -1,5 +1,4 @@
 //Write a Java program to convert a Binary Number to Decimal and Decimal to Binary. 
-
 import java.util.Scanner;
 
 class BinaryToDecimalAndDecimalToBinary {
